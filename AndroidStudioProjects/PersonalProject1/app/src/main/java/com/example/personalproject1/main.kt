@@ -15,7 +15,7 @@ class Calculator{
 
         println("step 2. choose operator( [ + ], [ - ], [ * ], [ / ], [ % ] )")
         val operator = readLine()
-        // 코딩은 예외처리가 중요
+
 
         println("step 3. enter last number")
         val num2 = readLine()?.toInt() ?:0
